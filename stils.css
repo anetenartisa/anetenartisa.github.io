@@ -6,3 +6,9 @@ body{
     text-align: center;
     font-size: 50px;
 }
+.b{
+    position: absolute;
+
+clip: rect(0px,50px,100px,50px);
+
+}
