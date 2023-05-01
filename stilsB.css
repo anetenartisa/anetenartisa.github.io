@@ -8,29 +8,19 @@ body{
     align-items: center;
   }
 
-.bilde1 img.resize{ 
-    width: 400px; height: 200px;
+.bilde1{ 
     margin: 10px;
     text-align: center;
 }
 .bilde2{
-    height: 200px fit-content;
-    width: 400px fit-content;
     margin: 10px;
     text-align: center;
 }
 .bilde3{
-    height: 200px fit-content;
-    width: 400px fit-content;
     margin: 10px;
     text-align: center;
 }
 .bilde4{
-    height: 200px fit-content;
-    width: 400px fit-content;
     margin: 10px;
     text-align: center;
-}
-img.resize{
-    
 }
