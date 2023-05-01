@@ -12,7 +12,8 @@ body{
     text-align: center;
 }
 .b{
-    text-align: right;
-    size: 20px;
+    text-align: center;
+    size: 40px;
     color: aliceblue;
+    margin: 10px;
 }
