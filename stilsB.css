@@ -3,17 +3,32 @@ body{
 }
 .bildes {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
   }
+
 .bilde1{
-    height: 200px;
-    width: 400px;
-    margin-left: 50px;
-    padding: 10px;
+    height: 200px fit-content;
+    width: 400px fit-content;
+    margin: 10px;
+    text-align: center;
 }
 .bilde2{
-    height: 200px;
-    width: 400px;
-    margin-left: 50px;
-    padding: 10px;
+    height: 200px fit-content;
+    width: 400px fit-content;
+    margin: 10px;
+    text-align: center;
+}
+.bilde3{
+    height: 200px fit-content;
+    width: 400px fit-content;
+    margin: 10px;
+    text-align: center;
+}
+.bilde4{
+    height: 200px fit-content;
+    width: 400px fit-content;
+    margin: 10px;
+    text-align: center;
 }
