@@ -5,7 +5,14 @@ body{
     margin: 15px;
     border-width: 50px;
     border: aliceblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video-container video {
+    width: 50%;
+    height: auto;
+  }
