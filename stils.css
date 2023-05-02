@@ -13,15 +13,10 @@ body{
 }
 .b{
     size: 40px;
+    font-family: 'Space Grotesk', sans-serif;
     font-style: italic;
     color: aliceblue;
     text-align: center;
     margin: 10px;
+
 }
-/*.rotate90 {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}*/ /*lai pagrieztu bildi*/
