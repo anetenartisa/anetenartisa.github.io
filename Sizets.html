@@ -8,23 +8,57 @@
     <title>Sižets</title>
 </head>
 <body>
-    <img style="height: 400px; width: auto;" src="https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2021/08/19085635/gEU2QniE6E77NI6lCU6MxlNBvIx-scaled.jpg" alt="">
-    <h1 class="a">Filmas sižets</h1>
-    <p class="b">Filma iesākas ar Cooperu, bijušo NASA pilotu, kurš pašreiz ir fermeris un dzīvo kopā ar saviem diviem bērniem, Tomu un Murph, nākotnes pasaulē, kur ēdiens ir trūkumā, dēļ postošām dabas stihijām. 
+    <style>
+        .header{
+        background-color: #353535;
+        padding: 20px;
+        text-align: center;
+        }
+        .column {
+        float: left;
+        width: 50%;
+        padding: 15px;
+       }
+        .row::after {
+        content: "";
+        display: table;
+        clear: both;
+       }
+    </style>
+
+    <div class="header">
+        <h1>Filmas sižets</h1>
+    </div>
+    <div class="row">
+        <div class="column">
+              <p class="b">Filma iesākas ar Cooperu, bijušo NASA pilotu, kurš pašreiz ir fermeris un dzīvo kopā ar saviem diviem bērniem, Tomu un Murph, nākotnes pasaulē, kur ēdiens ir trūkumā, dēļ postošām dabas stihijām. <br> 
         Kādu dienu Coopers ar meitu, Murph, atklāj slepenu NASA bāzi, kuru vada Coopera bijušais skolotājs profesors Berns, kurš atklāj ka pie Saturna ir paradījies Einšteina-Rozena tilts, uz kuru tika aizsūtīta grupa zinātnieku, lai izpētītu potenciāli apdzīvojamas planētas tilta otrā pusē.
         Brends uzaicina Cooperu vadīt nākamo misiju uz šo tiltu, un pēc lielām pārdomām Coopers pieņem izvēli pamest savu ģimeni un mājas, lai dotos šajā misijā ar mērķi glābt cilvēces nākotni. 
-        Viņam pievienojas profesora Brenda meita, Dr. Brenda, kā arī divi inteliģenti roboti TARS un CASE.
+        Viņam pievienojas profesora Brenda meita, Dr. Brenda, kā arī divi inteliģenti roboti TARS un CASE. <br>
         Komanda ceļo cauri Einšteina-Rozena tiltam, nonākot pilnībā citā kosmosa daļā, tur apciemojot dažādas jaunas planētas, katru ar saviem izaicinājumiem. 
         Uz vienas planētas, kuru pilnībā klāj ūdens, komanda saskarās ar masīvu vilni, kas gandrīz vai noveda pie viņu nāves. Planētas tuvuma pie melnā cauruma dēļ, laiks uz tās ir daudz lēnāks, viena stunda ir kā 23 zemes gadi.
-        Misijas laika Coopers sazinās ar savu meitu caur speciālu ierīci, kas suta ziņas cauri kosmiskajai telpai un laikam. 
+        Misijas laika Coopers sazinās ar savu meitu caur speciālu ierīci, kas suta ziņas cauri kosmiskajai telpai un laikam. <br>
         Murph, nu jau pieaugusi zinātniece, pēta dīvainos gravitācijas spēkus, kas ietekmē zemi, postot to ar dabas stihijām, kas pilnībā iznīcina labību jau vairākus gadus pēc kārtas.
         Kamēr komanda turpina savu misiju spriedze pieaug un Dr. Brenta atklāj pārejiem nepatīkamo patiesību par šo misiju. 
         Brenta uzskata ka nebūs iespējams izglābt lielāko daļu zemes iedzīvotāju, un īstais mērķis ir meklēt un izveidot jaunu māju priekš tiem dažiem, kas tiks izglābti.
-        Coopers esot ļoti dziļi neapmierināts, nosolās atgriezties uz zemes un izglābt visus, pat ja jāupurē visa misija.
-        Esošās situācijas dēļ Coopers pamet kosmosa kuģi, nonāk melnajā caurumā kopā ar robotu TARS, kur Coopers sastopas ar tesseraktu, multidimencionālu konstrukciju, kas atļauj viņam sazināties ar savu meitu pagātnē, manipulējot gravitāciju, lai nosūtītu ziņas, kas palīdzētu izglābt cilvēci. 
+        Coopers esot ļoti dziļi neapmierināts, nosolās atgriezties uz zemes un izglābt visus, pat ja jāupurē visa misija. <br>
+        Esošās situācijas dēļ Coopers pamet kosmosa kuģi, nonāk melnajā caurumā kopā ar robotu TARS, kur Coopers sastopas ar tesseraktu, multidimencionālu konstrukciju, kas atļauj viņam sazināties ar savu meitu pagātnē, manipulējot gravitāciju, lai nosūtītu ziņas, kas palīdzētu izglābt cilvēci. <br>
         Beigās misija izdodas, jo tiek atrasta apdzīvojama planēta. Coopers izlemj pagaidām palikt uz šīs planētas, atstājot robotu TARS kopā ar Dr. Brendu, kura vēlas uzsākt jaunu koloniju. 
         Uz zemes, Murph ir atrisinājusi problēmu, atklājot kā manipulēt gravitāciju, pēc Coopera instrukcijām, izglābjot cilvēci. Filmas beigās Coopers tiek atkal redzēt, nu jau pavisam veco Murph,
         pats fiziski būdams daudz jaunāks par meitu, kad Murph apstiprina ka viņa pūliņi bija to vērti, un cilvēcei ir dota vel viena iespēja.
-        </p>
+        </p> 
+        </div>
+        <div class="column">
+             <img style="height: 400px; width: auto;" src="https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2021/08/19085635/gEU2QniE6E77NI6lCU6MxlNBvIx-scaled.jpg" alt="">
+        </div>
+    </div>
+
+        <style>
+        @media screen and (max-width:600px) {
+            .column {
+              width: 100%;
+            }
+        }
+        </style>
 </body>
 </html>
