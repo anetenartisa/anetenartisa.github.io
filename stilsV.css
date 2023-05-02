@@ -3,9 +3,9 @@ body{
 }
 .a{
     margin: 30px;
-    display: flex;
-    justify-content: left;
-    align-items: left;
+    display: block;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: auto;
   }
