@@ -2,8 +2,10 @@ body{
     background-color: #353535;
 }
 .a{
-    align-items: center;
     margin: 15px;
+    border-width: 50px;
     border: aliceblue;
-    border-width: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
