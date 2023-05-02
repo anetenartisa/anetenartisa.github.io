@@ -13,31 +13,7 @@ body{
     align-items: center;
   }
 
-.bilde1{ 
-    margin: 10px;
-    text-align: center;
-}
-.bilde2{
-    margin: 10px;
-    text-align: center;
-}
-.bilde3{
-    margin: 10px;
-    text-align: center;
-}
-.bilde4{
-    margin: 10px;
-    text-align: center;
-}
-.bilde5{
-    margin: 10px;
-    text-align: center;
-}
-.bilde6{
-    margin: 10px;
-    text-align: center;
-}
-.bilde7{
+.bilde{ 
     margin: 10px;
     text-align: center;
 }
