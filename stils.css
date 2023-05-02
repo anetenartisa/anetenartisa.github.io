@@ -11,10 +11,11 @@ body{
     font-size: 70px;
     text-align: center;
 }
-.B{
-    font-style: italic;
+.b{
     size: 40px;
+    font-style: italic;
     color: aliceblue;
+    text-align: center;
     margin: 10px;
 }
 .rotate90 {
