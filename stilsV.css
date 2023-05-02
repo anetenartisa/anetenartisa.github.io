@@ -1,3 +1,9 @@
 body{
     background-color: #353535;
 }
+.a{
+    align-items: center;
+    margin: 15px;
+    border: aliceblue;
+    border-width: 10px;
+}
