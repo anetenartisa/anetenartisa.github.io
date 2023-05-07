@@ -1,14 +1,14 @@
 body{
     background-color: #353535;
 }
-h2{
+.h2{
     color: aliceblue;
     font-style: bold;
     
 }
-p{
+.p{
     color: aliceblue;
 }
-i{
+.i{
     color: aliceblue;
 }
