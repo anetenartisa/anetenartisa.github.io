@@ -3,9 +3,8 @@ body{
 }
 a{
     margin: 30px;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: auto;
   }
