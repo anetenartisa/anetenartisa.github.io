@@ -1,19 +1,19 @@
 body{
     background-color:#353535 ;
 }
-A{
+.A{
     color: aliceblue;
     text-align: center;
     font-size: 50px;
 }
-bildes {
+.bildes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
 
-bilde{ 
+.bilde{ 
     margin: 10px;
     text-align: center;
 }
