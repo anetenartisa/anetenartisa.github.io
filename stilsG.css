@@ -5,15 +5,5 @@ body{
     float: left;
     width: 20%;
     padding: 15px;
+    color: aliceblue;
   }
-.h2{
-    color: aliceblue;
-    font-style: bold;
-    
-}
-.p{
-    color: aliceblue;
-}
-.i{
-    color: aliceblue;
-}
