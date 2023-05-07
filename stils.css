@@ -1,17 +1,17 @@
 body{
     background-color: #353535;
 }
-.A{
+A{
     color: aliceblue;
     text-align: center;
     font-size: 50px;
 }
-.a{
+a{
     color: aliceblue;
     font-size: 70px;
     text-align: center;
 }
-.b{
+b{
     size: 40px;
     font-family: 'Space Grotesk', sans-serif;
     font-style: italic;
