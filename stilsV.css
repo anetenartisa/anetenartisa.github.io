@@ -1,7 +1,7 @@
 body{
     background-color: #353535;
 }
-a{
+.a{
     margin: 30px;
     display: flex;
     flex-wrap: wrap;
