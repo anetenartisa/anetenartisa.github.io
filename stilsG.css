@@ -1,9 +1,25 @@
 body{
     background-color: #353535;
+    padding: 20px;
 }
 .column {
     float: left;
     width: 20%;
     padding: 15px;
     color: aliceblue;
+  }
+  h1{
+    color: aliceblue;
+  }
+  .Fancy{
+    color: aliceblue;
+  }
+  dt{
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  dd{
+    width: 70%;
+    margin-left: 3rem;
   }

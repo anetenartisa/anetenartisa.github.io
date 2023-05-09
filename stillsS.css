@@ -4,6 +4,47 @@ body{
 .a{
     color: aliceblue;
 }
-.b{
+p{
     color: aliceblue;
+    line-height: 1.5;
 }
+p::first-letter{
+    font-size: 200%;
+    float: left;
+    margin-right: 6px;
+    padding: 0 3px 0 0;
+
+}
+.aside{
+    text-align: center;
+padding-left: 10px;
+padding-right: 10px;
+height: auto;
+float: right;
+margin-left: 15px;
+width: 15%;
+}
+.header{
+    background-color: #353535;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    }
+    .column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    margin-right: 3rem;
+    margin-left: 3rem;
+
+   }
+   .row::after {
+    content: "";
+    display: table;
+    clear: both;
+   }
+    @media screen and (max-width:600px) {
+        .column {
+          width: 100%;
+        }
+    }
