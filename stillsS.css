@@ -9,14 +9,14 @@ p{
     line-height: 1.5;
 }
 p::first-letter{
-    font-size: 200%;
+    font-size: 170%;
     float: left;
     margin-right: 6px;
     padding: 0 3px 0 0;
 
 }
 .aside{
-    text-align: center;
+text-align: center;
 padding-left: 10px;
 padding-right: 10px;
 height: auto;
@@ -29,6 +29,7 @@ width: 15%;
     color: aliceblue;
     padding: 20px;
     text-align: center;
+    font-size: 2rem;
     }
     .column {
     float: left;
@@ -47,4 +48,8 @@ width: 15%;
         .column {
           width: 100%;
         }
+    }
+    section{
+        background-color: #2d2d2d;
+        padding: 8px;
     }
