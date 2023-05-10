@@ -7,6 +7,8 @@ body{
 p{
     color: aliceblue;
     line-height: 1.5;
+    font-size: 17px;
+    
 }
 p::first-letter{
     font-size: 170%;
@@ -25,6 +27,7 @@ margin-left: 15px;
 width: 15%;
 }
 .header{
+    font-family: 'Space Grotesk', sans-serif;
     background-color: #353535;
     color: aliceblue;
     padding: 20px;
