@@ -9,17 +9,32 @@ body{
     color: aliceblue;
   }
   h1{
+    font-family: 'Space Grotesk', sans-serif;
     color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+    margin: 40px;
   }
   .Fancy{
     color: aliceblue;
   }
   dt{
-    font-size: larger;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
   }
   dd{
     width: 70%;
     margin-left: 3rem;
+    font-size: 17px;
+
   }
+  i{
+    font-family: 'Space Mono', monospace;
+  }
+  section{
+    background-color: #2d2d2d;
+    padding: 8px;
+}
