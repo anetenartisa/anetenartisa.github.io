@@ -4,7 +4,8 @@ body{
 .A{
     color: aliceblue;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
+    padding: 20px;
 }
 .bildes {
     display: flex;
